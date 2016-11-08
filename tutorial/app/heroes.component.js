@@ -32,6 +32,7 @@ var HeroesComponent = (function () {
     };
     HeroesComponent = __decorate([
         core_1.Component({
+            moduleId: module.id,
             selector: 'my-heroes',
             templateUrl: 'heroes.component.html',
             styleUrls: ['heroes.component.css']
